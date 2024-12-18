@@ -5,9 +5,9 @@ import Bg from '../../img/service/service-contact.jpg'
 
 const ServiceSidebar = (props) => {
 
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
+    // const SubmitHandler = (e) => {
+    //     e.preventDefault()
+    // }
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Swiper from 'swiper';
+import React from "react";
 import 'swiper/swiper-bundle.min.css';
 
 import logo1 from '../../img/brand/brand-logo-11.png'
@@ -12,38 +11,38 @@ import logo7 from '../../img/brand/brand-logo-17.png'
 
 const BrandSectionS2 = () => {
 
-    useEffect(() => {
-        const brandSlider3 = new Swiper(".brand-slider-3", {
-            spaceBetween: 30,
-            speed: 2000,
-            loop: true,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                1399: {
-                    slidesPerView: 7,
-                },
-                1199: {
-                    slidesPerView: 6,
-                },
-                991: {
-                    slidesPerView: 5,
-                },
-                767: {
-                    slidesPerView: 4,
-                },
-                575: {
-                    slidesPerView: 3,
-                },
-                0: {
-                    slidesPerView: 1,
-                },
-            },
-        });
+    // useEffect(() => {
+    //     const brandSlider3 = new Swiper(".brand-slider-3", {
+    //         spaceBetween: 30,
+    //         speed: 2000,
+    //         loop: true,
+    //         autoplay: {
+    //             delay: 1000,
+    //             disableOnInteraction: false,
+    //         },
+    //         breakpoints: {
+    //             1399: {
+    //                 slidesPerView: 7,
+    //             },
+    //             1199: {
+    //                 slidesPerView: 6,
+    //             },
+    //             991: {
+    //                 slidesPerView: 5,
+    //             },
+    //             767: {
+    //                 slidesPerView: 4,
+    //             },
+    //             575: {
+    //                 slidesPerView: 3,
+    //             },
+    //             0: {
+    //                 slidesPerView: 1,
+    //             },
+    //         },
+    //     });
     
-    }, []);
+    // }, []);
 
 
 

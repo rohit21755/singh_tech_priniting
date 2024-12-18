@@ -11,7 +11,6 @@ import PortfolioSection from '../../components/PortfolioSection/PortfolioSection
 import FunFact from '../../components/FunFact/FunFact';
 import WorksSection from '../../components/WorksSection/WorksSection';
 import ProcessSection from '../../components/ProcessSection/ProcessSection';
-import PricingSection from '../../components/PricingSection/PricingSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import CtaSection from '../../components/CtaSection/CtaSection';

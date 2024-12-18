@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import abImg from '../../img/about/t-shirt.png'
 import abImg1 from '../../img/about/shape-1.png'
 import abImg2 from '../../img/about/mug1.png'
 import abImg3 from '../../img/about/color_cycle.png'

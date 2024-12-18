@@ -71,7 +71,7 @@ const ProductSectionS4 = ({ products, addToCartProduct }) => {
                                                         </button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -118,7 +118,7 @@ const ProductSectionS4 = ({ products, addToCartProduct }) => {
                                                         </button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -165,7 +165,7 @@ const ProductSectionS4 = ({ products, addToCartProduct }) => {
                                                         </button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -212,7 +212,7 @@ const ProductSectionS4 = ({ products, addToCartProduct }) => {
                                                         </button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>

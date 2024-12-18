@@ -45,11 +45,11 @@ const BlogList = (props) => {
 
                             <div className="page-nav-wrap mt-5 text-center">
                                 <ul>
-                                    <li><a className="page-numbers" href="#"><i className="fa-solid fa-chevrons-left"></i></a></li>
-                                    <li><a className="page-numbers" href="#">1</a></li>
-                                    <li><a className="page-numbers" href="#">2</a></li>
-                                    <li><a className="page-numbers" href="#">3</a></li>
-                                    <li><a className="page-numbers" href="#"><i className="fa-solid fa-chevrons-right"></i></a></li>
+                                    <li><a className="page-numbers" href="/"><i className="fa-solid fa-chevrons-left"></i></a></li>
+                                    <li><a className="page-numbers" href="/">1</a></li>
+                                    <li><a className="page-numbers" href="/">2</a></li>
+                                    <li><a className="page-numbers" href="/">3</a></li>
+                                    <li><a className="page-numbers" href="/"><i className="fa-solid fa-chevrons-right"></i></a></li>
                                 </ul>
                             </div>
                         </div>

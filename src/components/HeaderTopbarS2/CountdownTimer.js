@@ -76,7 +76,7 @@ const CountdownTimer = () => {
                     <span id="Seconds">{timeLeft.seconds}</span>
                 </li>
             </ul>
-            <h1 id="headline"></h1>
+            <div id="headline"></div>
             <div id="content" style={{ display: "none" }}>
                 {/* Content after countdown */}
             </div>

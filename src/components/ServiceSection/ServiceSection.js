@@ -14,7 +14,7 @@ const ClickHandler = () => {
 
 const ServiceSection = (props) => {
     useEffect(() => {
-        const serviceSlider = new Swiper('.service-slider', {
+  new Swiper('.service-slider', {
             spaceBetween: 30,
             speed: 2000,
             loop: true,

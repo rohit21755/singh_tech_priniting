@@ -2,19 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import HeaderTopbarS3 from '../HeaderTopbarS3/HeaderTopbarS3';
 import Logo from '../../img/logo/black-logo.svg';
-import Home1 from '../../img/header/home-1.jpg';
-import Home2 from '../../img/header/home-2.jpg';
-import Home3 from '../../img/header/home-3.jpg';
+
 import MobileMenu from '../MobileMenu/MobileMenu';
 
 
 const HeaderS3 = (props) => {
 
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
+    // const SubmitHandler = (e) => {
+    //     e.preventDefault()
+    // }
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -183,10 +180,10 @@ const HeaderS3 = (props) => {
                                 </div>
                                 <div className="content">
                                     <p>HOTLINE</p>
-                                    <h5><a onClick={ClickHandler} to="del:00190081889">00190081889</a></h5>
+                                    <h5><a onClick={ClickHandler} href="del:00190081889">00190081889</a></h5>
                                 </div>
                                 <div className="header-button">
-                                    <Link onClick={ClickHandler} to="/contact" className="theme-btn">Contact Us</Link>
+                                    <Link onClick={ClickHandler} href="/contact" className="theme-btn">Contact Us</Link>
                                 </div>
                                 <div className="header__hamburger d-xl-none my-auto">
                                     <div className="sidebar__toggle">

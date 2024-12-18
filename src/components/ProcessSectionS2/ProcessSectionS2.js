@@ -1,9 +1,5 @@
 import React from 'react';
 
-import Wp1 from '../../img/work-process/01.jpg'
-import Wp2 from '../../img/work-process/02.jpg'
-import Wp3 from '../../img/work-process/03.jpg'
-
 const ProcessSectionS2 = () => {
     return (
         <section className="work-process-section section-padding fix">
@@ -20,7 +16,7 @@ const ProcessSectionS2 = () => {
                         <div className="col-xl-4 col-lg-6 col-ms-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className="work-process-box-items">
                                 <div className="thumb">
-                                    <img src={Wp1} alt="img" />
+                                    <img src="https://prinoz-react.wpocean.com/static/media/01.402bb89030b6f04a79db.jpg" alt="img" />
                                 </div>
                                 <div className="content">
                                     <h3>Pick a Product</h3>
@@ -37,7 +33,7 @@ const ProcessSectionS2 = () => {
                         <div className="col-xl-4 col-lg-6 col-ms-6 wow fadeInUp" data-wow-delay=".5s">
                             <div className="work-process-box-items active">
                                 <div className="thumb">
-                                    <img src={Wp2} alt="img" />
+                                    <img src="https://prinoz-react.wpocean.com/static/media/01.402bb89030b6f04a79db.jpg" alt="img" />
                                 </div>
                                 <div className="content">
                                     <h3>Custom artwork &review</h3>
@@ -54,7 +50,7 @@ const ProcessSectionS2 = () => {
                         <div className="col-xl-4 col-lg-6 col-ms-6 wow fadeInUp" data-wow-delay=".7s">
                             <div className="work-process-box-items">
                                 <div className="thumb">
-                                    <img src={Wp3} alt="img" />
+                                    <img src="https://prinoz-react.wpocean.com/static/media/01.402bb89030b6f04a79db.jpg" alt="img" />
                                 </div>
                                 <div className="content">
                                     <h3>Set up shipping</h3>

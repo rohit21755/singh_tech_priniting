@@ -1,13 +1,11 @@
 import React from 'react';
 
-import BG from '../../img/cta-video.jpg'
 import BG1 from '../../img/brand/bg.jpg'
 import Logo1 from '../../img/brand/brand-logo-11.png'
 import Logo2 from '../../img/brand/brand-logo-12.png'
 import Logo3 from '../../img/brand/brand-logo-13.png'
 import Logo4 from '../../img/brand/brand-logo-14.png'
 import Logo5 from '../../img/brand/brand-logo-15.png'
-import VideoModal from '../ModalVideo/VideoModal';
 
 
 
@@ -39,10 +37,8 @@ const CtaVideoSection = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="cta-video-wrapper bg-cover" style={{ backgroundImage: `url(${BG})`}}>
-                    <div >
-                        <VideoModal/>
-                    </div>
+                <div className="cta-video-wrapper bg-cover">
+                    
                 </div>
             </div>
             <div className="brand-wrapper-4 bg-cover" style={{ backgroundImage: `url(${BG1})`}}>

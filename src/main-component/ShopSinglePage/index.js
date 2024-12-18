@@ -8,7 +8,7 @@ import FooterS3 from '../../components/footerS3/FooterS3';
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 import { addToCart } from "../../store/actions/action";
 import Product from './product'
-import api from "../../api";
+import getData from "../../api/index";
 import ProductTabs from './alltab';
 
 
@@ -19,7 +19,8 @@ const ProductSinglePage =(props) => {
     const { slug } = useParams()
 
     
-    const productsArray = api();
+    const productsArray = getData();
+
     const Allproduct = productsArray
 
     
@@ -27,8 +28,9 @@ const ProductSinglePage =(props) => {
     const [product, setProduct] = useState({});
     
     useEffect(() => {
-        setProduct(Allproduct.filter(Allproduct => Allproduct.slug === String(slug)))
-    }, []);
+        setProduct(Allproduct.filter(Allproduct => Allproduct.slug === String(slug)));
+    }, [Allproduct, slug]);
+    
     
     const item = product[0];
 

@@ -65,7 +65,7 @@ const ProductSection = ({ products, addToCartProduct }) => {
                                                             onClick={() => addToCartProduct(product)}><i className="fa-sharp fa-regular fa-eye"></i></button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -108,7 +108,7 @@ const ProductSection = ({ products, addToCartProduct }) => {
                                                             onClick={() => addToCartProduct(product)}><i className="fa-sharp fa-regular fa-eye"></i></button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -151,7 +151,7 @@ const ProductSection = ({ products, addToCartProduct }) => {
                                                             onClick={() => addToCartProduct(product)}><i className="fa-sharp fa-regular fa-eye"></i></button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>
@@ -194,7 +194,7 @@ const ProductSection = ({ products, addToCartProduct }) => {
                                                             onClick={() => addToCartProduct(product)}><i className="fa-sharp fa-regular fa-eye"></i></button>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="/">
                                                             <i className="fa-regular fa-star"></i>
                                                         </a>
                                                     </li>

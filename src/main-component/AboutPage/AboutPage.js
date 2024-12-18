@@ -10,7 +10,6 @@ import WorksSection from '../../components/WorksSection/WorksSection';
 import CtaVideoSection from '../../components/CtaVideoSection/CtaVideoSection';
 import ProcessSectionS2 from '../../components/ProcessSectionS2/ProcessSectionS2';
 import TestimonialSectionS3 from '../../components/TestimonialSectionS3/TestimonialSectionS3';
-import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
 import FooterS3 from '../../components/footerS3/FooterS3';
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 import ServiceBg from '../../img/service/service-bg.jpg'
@@ -27,7 +26,7 @@ const AboutPage = () => {
             <CtaVideoSection  />
             <ProcessSectionS2 />
             <TestimonialSectionS3 />
-            <CtaSectionS2 />
+            
             <FooterS3 />
             <CursorMaus />
         </Fragment>

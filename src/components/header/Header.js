@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
-import Logo from '../../img/logo/black-logo.svg';
-import Home1 from '../../img/header/home-1.jpg';
-import Home2 from '../../img/header/home-2.jpg';
-import Home3 from '../../img/header/home-3.jpg';
+// import Logo from '../../img/logo/black-logo.svg';
+import logo from '../../img/logo.png'
+
 import SearchComponent from './search';
 import MobileMenu from '../MobileMenu/MobileMenu';
 
@@ -14,9 +12,9 @@ import MobileMenu from '../MobileMenu/MobileMenu';
 const Header = (props) => {
 
 
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
+    // const SubmitHandler = (e) => {
+    //     e.preventDefault()
+    // }
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -51,9 +49,12 @@ const Header = (props) => {
                     <div className="mega-menu-wrapper">
                         <div className="header-main">
                             <div className="header-left">
-                                <div className="logo">
-                                    <Link onClick={ClickHandler} to="/" className="header-logo">
-                                        <img src={Logo} alt="logo-img" />
+                                <div className="logo" >
+                                    <Link onClick={ClickHandler} to="/" className="header-logo" >
+                                        <img src={logo} alt="logo-img" style={{
+                                    width: '180px',
+                                    height: '50px',
+                                }}/>
                                     </Link>
                                 </div>
                             </div>

@@ -7,7 +7,6 @@ import Shape3 from '../../img/hero/circle.png'
 import Shape4 from '../../img/hero/arrow-up.png'
 import Shape5 from '../../img/Scroll_Down.png'
 import Shape6 from '../../img/hero/bar.png'
-import hero1 from '../../img/hero/hero-1.png'
 import hero2 from '../../img/hero/information.png'
 
 

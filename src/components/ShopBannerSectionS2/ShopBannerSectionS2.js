@@ -37,15 +37,15 @@ const ShopBannerSectionS2 = () => {
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">Custom Packaging</h2>
                             <ul className="wow fadeInUp" data-wow-delay=".5s">
                                 <li>
-                                    <span><img src={SB3} /></span>
+                                    <span><img src={SB3} alt=''/></span>
                                     Premium Quality Custom boxes
                                 </li>
                                 <li>
-                                    <span><img src={SB3} /></span>
+                                    <span><img src={SB3} alt=''/></span>
                                     Free Standard Shipping
                                 </li>
                                 <li>
-                                    <span><img src={SB3} /></span>
+                                    <span><img src={SB3} alt=''/></span>
                                     Unnique Design & custom cloths
                                 </li>
                             </ul>

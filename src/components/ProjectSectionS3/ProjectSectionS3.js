@@ -10,7 +10,7 @@ const ProjectSectionS3 = () => {
     };
 
     useEffect(() => {
-        const projectSlider = new Swiper(".project-slider", {
+        new Swiper(".project-slider", {
             spaceBetween: 0,
             speed: 2000,
             loop: true,

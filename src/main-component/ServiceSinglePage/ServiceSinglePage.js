@@ -20,9 +20,9 @@ const ServiceSinglePage = (props) => {
 
     const serviceDetails = Services.find(item => item.slug === slug)
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
+    // const ClickHandler = () => {
+    //     window.scrollTo(10, 0);
+    // }
     return (
         <Fragment>
             <NavbarS2 hclass={'header-section-2 style-two'} />

@@ -17,7 +17,7 @@ import Mockup2 from '../../img/hero/cap.png';
 const Hero3 = () => {
 
     useEffect(() => {
-        const sliderswiper = new Swiper('.hero-slider-2', {
+      new Swiper('.hero-slider-2', {
             speed: 1500,
             loop: true,
             slidesPerView: 1,

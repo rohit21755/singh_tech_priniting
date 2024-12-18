@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Ct1 from '../../img/cta-img.png';
 import Ct2 from '../../img/hand-bag.png';
-import Ct3 from '../../img/t-shirt.png';
 import Ct4 from '../../img/print-box.png';
 import CtBg from '../..//img/cta-bg.jpg';
 import { Link } from 'react-router-dom';

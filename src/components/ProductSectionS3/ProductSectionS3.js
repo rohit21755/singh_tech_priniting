@@ -14,7 +14,7 @@ const ProductSectionS3 = ({ products }) => {
     }
 
     useEffect(() => {
-        const shopSlider = new Swiper('.shop-slider', {
+        new Swiper('.shop-slider', {
             spaceBetween: 30,
             speed: 2000,
             loop: true,

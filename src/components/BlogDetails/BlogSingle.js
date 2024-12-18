@@ -17,9 +17,9 @@ const BlogSingle = (props) => {
 
     const BlogDetails = blogs.find(item => item.slug === slug)
 
-    const submitHandler = (e) => {
-        e.preventDefault()
-    }
+    // const submitHandler = (e) => {
+    //     e.preventDefault()
+    // }
 
     return (
         <section className="news-section-3 section-padding section-bg-2">
@@ -143,7 +143,7 @@ const BlogSingle = (props) => {
                                 </div>
                                 <div className="blog-single-comment d-flex gap-4 pt-4">
                                     <div className="image">
-                                        <img src={blog6} alt="image" />
+                                        <img src={blog6} alt="" />
                                     </div>
                                     <div className="content">
                                         <div className="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
@@ -163,7 +163,7 @@ const BlogSingle = (props) => {
                                 </div>
                                 <div className="blog-single-comment style-2 d-flex gap-4 pt-4">
                                     <div className="image">
-                                        <img src={gl1} alt="image" />
+                                        <img src={gl1} alt="" />
                                     </div>
                                     <div className="content">
                                         <div className="head d-flex flex-wrap gap-2 align-items-center justify-content-between">

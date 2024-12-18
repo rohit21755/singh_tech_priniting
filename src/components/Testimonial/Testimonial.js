@@ -8,7 +8,6 @@ import 'swiper/swiper-bundle.min.css';
 import TsBg from '../../img/testimonial/testimonial-bg.jpg';
 import Line1 from '../../img/line.png';
 import Line2 from '../../img/testimonial/line.png';
-import TS2 from '../../img/testimonial/testimonial.png';
 import TS3 from '../../img/testimonial/work-shape.png';
 
 // Install Swiper modules
